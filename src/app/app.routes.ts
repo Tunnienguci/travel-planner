@@ -21,6 +21,11 @@ export const routes: Routes = [
         data: { title: 'My Ticket' }
     },
     {
+        path: 'plan',
+        component: TicketComponent,
+        data: { title: 'Trip Plan' }
+    },
+    {
         path: 'profile',
         component: ProfileComponent,
         data: { title: 'My Profile' }

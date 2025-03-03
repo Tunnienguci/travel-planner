@@ -1,0 +1,36 @@
+.calendar-date {
+  display: flex;
+  gap: 10px;
+
+  .day {
+    cursor: pointer;
+    background-color: #ffe5d9;
+    border: none;
+    width: 65px;
+    border-radius: 8px;
+    color: #ff6912;
+    padding: 10px;
+    h1,
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .day.active {
+    background-color: #ff6912;
+    color: white;
+  }
+}
+
+h1.title-page {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

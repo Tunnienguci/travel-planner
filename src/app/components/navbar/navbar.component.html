@@ -1,5 +1,5 @@
 <div class="navbar">
-  <a [routerLink]="['/']">
+  <a [routerLink]="['/', 'ticket']" [routerLinkActive]="['active']">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -17,7 +17,7 @@
       />
     </svg>
   </a>
-  <a [routerLink]="['/']">
+  <a [routerLink]="['/', 'expenses']" [routerLinkActive]="['active']">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -36,7 +36,7 @@
       <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4" />
     </svg>
   </a>
-  <a [routerLink]="['/']" class="home-main">
+  <a [routerLink]="['/']" class="home-main" [routerLinkActive]="['active']">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -55,7 +55,7 @@
       />
     </svg>
   </a>
-  <a [routerLink]="['/']">
+  <a [routerLink]="['/', 'plan']" [routerLinkActive]="['active']">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
@@ -77,7 +77,7 @@
       <rect x="2" y="8" width="20" height="13" rx="2" />
     </svg>
   </a>
-  <a [routerLink]="['/']">
+  <a [routerLink]="['/', 'profile']" [routerLinkActive]="['active']">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="24"
